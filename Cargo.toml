@@ -1,0 +1,14 @@
+[package]
+name = "btc_to_sats"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.64"
+bdk = "0.22.0"
+clap = { version = "3.2.20", features = ["derive"] }
+# currency = "0.4.0"
+iso_currency = { version = "0.4.3", features = ["serde", "with-serde"] }
+parse-display-derive = "0.6.0"
